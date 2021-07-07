@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+}
+
+.paragraph-1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.paragraph-2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.img-style {
+  margin: 15px;
+  width: 50%;
+  height: 25%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-1 {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0;
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn-2 {
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  margin: 10px;
+}
